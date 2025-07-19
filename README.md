@@ -24,13 +24,13 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
   Workintech yüzme ekibinin sana ihtiyacı var.  
 
-* com.workintech.pool paketi altında Rectangle isimli bir sınıf yazınız. Sınıf'ın iki tane sınıf değişkeni olmalı. ```width``` ve ```length``` İki değişkeninde tipini ne seçmeliyiz?
+* com.workintech.pool paketi altında cylinder.pool.com.workintech.cylinder.Rectangle isimli bir sınıf yazınız. Sınıf'ın iki tane sınıf değişkeni olmalı. ```width``` ve ```length``` İki değişkeninde tipini ne seçmeliyiz?
 * width değişkeni de height değişkenide 0 dan küçük set edilirse direkt olarak 0'a set edilmeliler.
-* Rectangle sınıfının 3 methodu olmalı ```getWidth``` width alanını dönmeli.
+* cylinder.pool.com.workintech.cylinder.Rectangle sınıfının 3 methodu olmalı ```getWidth``` width alanını dönmeli.
 * ```getLength``` methodu length fieldini dönmeli
 * ```getArea``` methodu (width*length) i dönmeli.
 
-* com.workintech.pool paketi altında Cuboid isimli bir sınıf daha yazmalısınız. Cuboid sınıfı ile Rectangle sınıfı arasında bir ilişki olmalı.
+* com.workintech.pool paketi altında Cuboid isimli bir sınıf daha yazmalısınız. Cuboid sınıfı ile cylinder.pool.com.workintech.cylinder.Rectangle sınıfı arasında bir ilişki olmalı.
 * Cuboid sınıfının tek bir sınıf değişkeni var ve adı height. Tipini belirlemek senin görevin. height 0'dan küçükse direkt 0 atanmalı.
 * Cuboid sınıfının tek bir constructor methodu olmalı ve 3 parametre almalı. width, length ve height.
 * Cuboid sınıfının iki tane methodu olmalı. ```getHeight``` height değerini dönmeli. ```getVolume``` volume değerinin hesaplamalı ve dönmeli. Volume alan ile yükseklik değerinin çarpımıdır.
@@ -91,7 +91,7 @@ cylinder.volume= 701.574580913447
 ### Havuzun Alanı için
 INPUT
 
-Rectangle rectangle = new Rectangle(5, 10);
+cylinder.pool.com.workintech.cylinder.Rectangle rectangle = new cylinder.pool.com.workintech.cylinder.Rectangle(5, 10);
 
 System.out.println("rectangle.width= " + rectangle.getWidth());
 

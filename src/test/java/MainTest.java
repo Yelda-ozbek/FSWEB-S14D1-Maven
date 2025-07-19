@@ -1,12 +1,17 @@
 import com.workintech.cylinder.Circle;
 import com.workintech.cylinder.Cylinder;
-import com.workintech.developers.*;
 import com.workintech.pool.Cuboid;
 import com.workintech.pool.Rectangle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import com.workintech.developers.Employee;
+import com.workintech.developers.HRManager;
+import com.workintech.developers.JuniorDeveloper;
+import com.workintech.developers.MidDeveloper;
+import com.workintech.developers.SeniorDeveloper;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.lang.reflect.Field;
 
